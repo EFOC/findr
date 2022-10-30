@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'Lato Regular';
+	src: url('../assets/Lato/Lato-Regular.ttf');
+}
+@font-face {
+	font-family: 'Lato Black';
+	src: url('../assets/Lato/Lato-Black.ttf');
+}
+@font-face {
+	font-family: 'Lato Bold';
+	src: url('../assets/Lato/Lato-Bold.ttf');
+}
+
+a {
+	text-decoration: none;
+
+	&:link,
+	&:visited {
+		color: inherit;
+	}
+}

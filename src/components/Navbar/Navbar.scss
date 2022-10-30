@@ -1,0 +1,26 @@
+nav {
+	position: sticky;
+	padding: 0.7rem 4rem;
+	// TODO bottom shadow/border grey
+
+	img {
+		height: 48px;
+	}
+
+	.navContainer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.buttonActions {
+		button {
+			margin: 0 0.5rem;
+		}
+
+		:last-child {
+			padding: 0.7rem 1.7rem;
+		}
+	}
+}
