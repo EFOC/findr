@@ -1,0 +1,33 @@
+@use '../../styles/modules/mixins';
+@use '../../styles/modules/variables';
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	padding: 1rem 0;
+	background-color: white;
+	border-bottom: 0.15rem solid rgb(223, 223, 223);
+
+	img {
+		height: 48px;
+	}
+
+	.navContainer {
+		@include mixins.flexCenter(row);
+
+		justify-content: space-between;
+	}
+
+	.buttonActions {
+		button {
+			font-family: 'Lato Bold';
+			margin: 0 0.5rem;
+		}
+
+		:last-child {
+			padding: variables.$mainButtonPadding;
+		}
+	}
+}

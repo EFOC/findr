@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -53,10 +54,20 @@ a:link, a:visited {
   color: inherit;
 }
 
+#home {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 nav {
-  position: -webkit-sticky;
-  position: sticky;
-  padding: 0.7rem 4rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 1rem 0;
+  background-color: white;
+  border-bottom: 0.15rem solid rgb(223, 223, 223);
 }
 nav img {
   height: 48px;
@@ -64,12 +75,92 @@ nav img {
 nav .navContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 nav .buttonActions button {
+  font-family: "Lato Bold";
   margin: 0 0.5rem;
 }
 nav .buttonActions :last-child {
-  padding: 0.7rem 1.7rem;
+  padding: 0.75rem 1.75rem;
+}
+
+footer img {
+  width: 36px;
+}
+footer .footerItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.home button {
+  font-size: 0.8rem;
+  padding: 0.6rem 1.5rem;
+}
+.home .contentRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.home .contentCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home #content1 {
+  background-color: rgb(229, 248, 253);
+  padding: 2rem 0;
+}
+.home #content1 img {
+  width: 380px;
+}
+.home #content2 {
+  padding: 4rem 0;
+}
+.home #content2 #about {
+  display: block;
+  position: relative;
+  top: -350px;
+  visibility: hidden;
+  scroll-behavior: smooth;
+}
+.home #content2 img {
+  width: 475px;
+}
+.home #content3 > div {
+  display: flex;
+  padding: 2rem 0;
+}
+.home #content3 .darkBlue, .home #content3 .lightBlue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(104, 216, 252);
+  width: 480px;
+  height: 400px;
+}
+.home #content3 .lightBlue {
+  background-color: rgb(232, 249, 254);
+}
+.home #content4 {
+  padding: 2rem 0;
+}
+.home #content4 .grow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact {
+  margin: 5rem;
 }/*# sourceMappingURL=App.css.map */

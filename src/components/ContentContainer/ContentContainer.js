@@ -1,8 +1,15 @@
 import React from 'react';
+import Container from '@mui/material/Container';
 
-const ContentContainer = (props) => {
-	const { content, image } = props;
-	return <div>ContentContainer</div>;
+const contentContainer = (props) => {
+	const { contentId, contentClassDirection } = props;
+	return (
+		<div id={contentId}>
+			<Container className={contentClassDirection} maxWidth='md' disableGutters>
+				{props.children}
+			</Container>
+		</div>
+	);
 };
 
-export default ContentContainer;
+export default contentContainer;
