@@ -162,5 +162,12 @@ footer .footerItems {
 }
 
 .contact {
-  margin: 5rem;
+  margin-top: 5rem;
+  background-color: rgb(229, 248, 253);
+}
+.contact button {
+  padding: 0.6rem 1.5rem;
+}
+.contact #contact {
+  padding: 3rem 0 2rem;
 }/*# sourceMappingURL=App.css.map */

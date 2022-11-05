@@ -1,5 +1,14 @@
 @use '../../styles/modules/variables';
 
 .contact {
-	margin: variables.$navBarTopPadding;
+	margin-top: variables.$navBarTopPadding;
+	background-color: variables.$lightBlue;
+
+	button {
+		padding: variables.$otherButtonPadding;
+	}
+
+	#contact {
+		padding: 3rem 0 2rem;
+	}
 }
