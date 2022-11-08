@@ -21,18 +21,19 @@ const Navbar = () => {
 				)}
 
 				<div className='buttonActions'>
-					<Button variant='text'>
-						{location.pathname === '/' ? (
-							<a href='#about'>About</a>
-						) : (
-							<Link className='link' to={'/'}>
-								About
-							</Link>
-						)}
-					</Button>
-					<Button variant='contained'>
-						<Link to={'/contact'}>Contact Us</Link>
-					</Button>
+					{location.pathname === '/' ? (
+						<a href='#about'>
+							<Button variant='text'>About</Button>
+						</a>
+					) : (
+						<Link className='link' to={'/'}>
+							<Button variant='text'>About</Button>
+						</Link>
+					)}
+
+					<Link to={'/contact'}>
+						<Button variant='contained'>Contact Us</Button>
+					</Link>
 				</div>
 			</Container>
 		</nav>

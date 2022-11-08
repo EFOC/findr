@@ -18,10 +18,12 @@ const Footer = () => {
 						© 2022 Findr. All rights reserved
 					</Typography>
 
-					{/* TODO Linkedin profile link*/}
-					<Link to={'/'}>
+					<a
+						href='https://www.linkedin.com/in/brandon-tran-a5308118b'
+						target='#blank'
+					>
 						<img src={linkedin} alt='linkedin' />
-					</Link>
+					</a>
 				</div>
 				<Divider />
 			</Container>

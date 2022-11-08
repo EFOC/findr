@@ -39,7 +39,7 @@ const Contact = () => {
 
 		try {
 			emailjs.sendForm(
-				'service_sqgf5ue',
+				'service_tbyci4h',
 				'template_cb409tr',
 				e.target,
 				'BgWYL00vurLAy1COj'
@@ -58,6 +58,7 @@ const Contact = () => {
 		} catch (error) {
 			console.log(error);
 			setFailedSubmit(true);
+			// TODO email owner about error
 		}
 	};
 
@@ -70,12 +71,14 @@ const Contact = () => {
 			>
 				<Typography
 					variant='h4'
+					textAlign='center'
 					sx={{ fontFamily: 'Lato Black', marginBottom: '20px' }}
 				>
 					Contact us
 				</Typography>
-				<Typography variant='body1'>
-					Contact us today to find out how we can help or reach out at ...
+				<Typography variant='body1' textAlign='center'>
+					Contact us today to find out how we can help or reach out at
+					inquiries@findragency.com
 				</Typography>
 
 				<form onSubmit={handleSubmit}>

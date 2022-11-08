@@ -36,9 +36,9 @@ const Home = () => {
 						We connect candidates with their perfect career and provide support
 						at every stage of the hiring process.
 					</Typography>
-					<Button variant='contained'>
-						<Link to={'/contact'}>GET STARTED</Link>
-					</Button>
+					<Link to={'/contact'}>
+						<Button variant='contained'>GET STARTED</Button>
+					</Link>
 				</div>
 				<img src={personPointing} alt='person pointing' />
 			</ContentContainer>
@@ -123,9 +123,9 @@ const Home = () => {
 						the career path you are interested in. We would love to hear your
 						goals and mindset and help you get to your best career match!
 					</Typography>
-					<Button variant='contained'>
-						<Link to={'/contact'}>GET STARTED</Link>
-					</Button>
+					<Link to={'/contact'}>
+						<Button variant='contained'>GET STARTED</Button>
+					</Link>
 				</div>
 				<img src={groupCircle} alt='group tree' />
 			</ContentContainer>
