@@ -30,4 +30,17 @@ nav {
 			padding: variables.$mainButtonPadding;
 		}
 	}
+
+	#mobileMenu {
+		img {
+			width: 30px;
+			height: 30px;
+		}
+	}
+
+	#basic-menu {
+		li {
+			width: 200px;
+		}
+	}
 }

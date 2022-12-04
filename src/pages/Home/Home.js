@@ -45,7 +45,7 @@ const Home = () => {
 
 			<ContentContainer contentId='content2' contentClassDirection='contentRow'>
 				<div id='about' />
-				<div>
+				<div className='text'>
 					<Typography variant='body2' sx={{ color: 'rgb(104, 104, 104)' }}>
 						ABOUT
 					</Typography>

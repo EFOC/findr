@@ -11,4 +11,10 @@
 	#contact {
 		padding: 3rem 0 2rem;
 	}
+
+	@media (max-width: 750px) {
+		#contact {
+			padding: 2rem;
+		}
+	}
 }

@@ -39,7 +39,7 @@ const Contact = () => {
 
 		try {
 			emailjs.sendForm(
-				'service_tbyci4h',
+				'service_zp5h8ng',
 				'template_cb409tr',
 				e.target,
 				'BgWYL00vurLAy1COj'
