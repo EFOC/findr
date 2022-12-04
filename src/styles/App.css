@@ -227,6 +227,10 @@ footer .footerItems {
   .home #content2 img {
     margin-bottom: -2rem;
   }
+  .home #content3 .darkBlue,
+.home #content3 .lightBlue {
+    width: initial;
+  }
 }
 @media (max-width: 420px) {
   .home #content1 h2 {
@@ -237,6 +241,10 @@ footer .footerItems {
   }
   .home #content1 img {
     width: 250px;
+  }
+  .home #content3 .darkBlue,
+.home #content3 .lightBlue {
+    width: initial;
   }
   .home #content3 .darkBlue p,
 .home #content3 .lightBlue p {
