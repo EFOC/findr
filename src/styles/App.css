@@ -173,11 +173,14 @@ footer .footerItems {
   display: flex;
   padding: 2rem 0;
 }
+.card-text {
+  padding: 40px 0px;
+}
 .home #content3 .darkBlue, .home #content3 .lightBlue {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background-color: rgb(104, 216, 252);
   width: 480px;
   height: 400px;
