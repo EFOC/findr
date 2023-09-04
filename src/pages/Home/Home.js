@@ -69,24 +69,25 @@ const Home = () => {
 
 			<ContentContainer contentId='content3' contentClassDirection='contentRow'>
 				<div className='darkBlue'>
-					<div>
-						<div className='card-text'>
-							<Typography variant='h5' align='center'>
-								FOR
-							</Typography>
-							<Typography
-								variant='h4'
-								align='center'
-								sx={{ fontFamily: 'Lato Bold', margin: '1.3rem 0' }}
-							>
-								Clients
-							</Typography>
-						</div>
+					<div className='card-text'>
+						<Typography variant='h5' align='center'>
+							FOR
+						</Typography>
+						<Typography
+							variant='h4'
+							align='center'
+							sx={{ fontFamily: 'Lato Bold', margin: '1.3rem 0' }}
+						>
+							Clients
+						</Typography>
+
 						<div>
 							<Typography variant='body2' align='center' sx={{ maxWidth: '380px' }}>
-								We work with innovative startups that want to build a superior team
-								to push their company to the next level. Connect with us and lets
-								work together to find the best candidate that suits you.
+								As a reputable recruitment agency, we take a comprehensive approach to identifying and
+								sourcing the most qualified and suitable candidates for our clients. We understand that
+								not only is it important for a candidate to possess the required qualifications and skills, but also to possess qualities that make them a
+								great fit for the client's existing team. We work closely with our clients to gain a thorough understanding of their specific needs, and collaborate
+								with them to develop effective strategies for sourcing and attracting the right candidates.
 							</Typography>
 						</div>
 					</div>
@@ -134,7 +135,7 @@ const Home = () => {
 					>
 						Start today by connecting with us and tell a bit about yourself and
 						the career path you are interested in. We would love to hear your
-						goals and mindset and help you get to your best career match!
+						goals and help you get to your best career match!
 					</Typography>
 					<Link to={'/Contact'}>
 						<Button variant='contained'>GET STARTED</Button>

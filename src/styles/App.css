@@ -185,6 +185,11 @@ footer .footerItems {
   width: 480px;
   height: 400px;
 }
+@media (max-width: 500px) {
+  .home #content3 .darkBlue, .home #content3 .lightBlue {
+    height: 500px;
+  }
+}
 @media (max-width: 950px) {
   .home #content3 .darkBlue, .home #content3 .lightBlue {
     padding: 0 2rem;
