@@ -56,13 +56,12 @@ const Home = () => {
 						Who is Findr?
 					</Typography>
 					<Typography variant='body2'>
-						A remote based recruitment agency helping talent move forward. For a
-						business to run successfully you not only need a great product or
-						idea but great people to work and collaborate with to ensure
-						efficiency and growth. We dedicate ourselves to spending time with
-						both client and candidate to ensure that the match is bespoke to one
-						another. We are here to help match the best candidates for the right
-						clients.
+						Our agency aims to establish long-lasting and beneficial partnerships
+						with both clients and candidates. We collaborate with clients to meet their
+						recruitment needs by presenting them with suitable candidates, while also
+						guiding candidates through the hiring process.We are committed to constantly
+						improving our services, and as such, we provide regular feedback to both
+						clients and job seekers.
 					</Typography>
 				</div>
 				<img src={groupTree} alt='group tree' />
@@ -70,38 +69,52 @@ const Home = () => {
 
 			<ContentContainer contentId='content3' contentClassDirection='contentRow'>
 				<div className='darkBlue'>
-					<Typography variant='h5' align='center'>
-						FOR
-					</Typography>
-					<Typography
-						variant='h4'
-						align='center'
-						sx={{ fontFamily: 'Lato Bold', margin: '1.3rem 0' }}
-					>
-						Clients
-					</Typography>
-					<Typography variant='body2' align='center' sx={{ maxWidth: '380px' }}>
-						We work with innovative startups that want to build a superior team
-						to push their company to the next level. Connect with us and lets
-						work together to find the best candidate that suits you.
-					</Typography>
+					<div>
+						<div className='card-text'>
+							<Typography variant='h5' align='center'>
+								FOR
+							</Typography>
+							<Typography
+								variant='h4'
+								align='center'
+								sx={{ fontFamily: 'Lato Bold', margin: '1.3rem 0' }}
+							>
+								Clients
+							</Typography>
+						</div>
+						<div>
+							<Typography variant='body2' align='center' sx={{ maxWidth: '380px' }}>
+								We work with innovative startups that want to build a superior team
+								to push their company to the next level. Connect with us and lets
+								work together to find the best candidate that suits you.
+							</Typography>
+						</div>
+					</div>
 				</div>
 				<div className='lightBlue'>
-					<Typography variant='h5' align='center'>
-						FOR
-					</Typography>
-					<Typography
-						variant='h4'
-						align='center'
-						sx={{ fontFamily: 'Lato Bold', margin: '1.3rem 0' }}
-					>
-						Candidates
-					</Typography>
-					<Typography variant='body2' align='center' sx={{ maxWidth: '380px' }}>
-						Connect with us today! It is our mission to help you move forward in
-						your career. Let us know what field of interest you are searching
-						for and find our how we can help.
-					</Typography>
+					<div className='card-text'>
+						<div>
+							<Typography variant='h5' align='center'>
+								FOR
+							</Typography>
+							<Typography
+								variant='h4'
+								align='center'
+								sx={{ fontFamily: 'Lato Bold', margin: '1.3rem 0' }}
+							>
+								Candidates
+							</Typography>
+						</div>
+						<Typography variant='body2' align='center' sx={{ maxWidth: '380px' }}>
+							To begin with, we take the time to evaluate and familiarize ourselves with
+							our candidates, gaining insight into their skills, qualifications, and career
+							aspirations. Collaborating with them, we help them prepare for the interview
+							by practicing answering relevant questions about the role. Additionally, we
+							furnish them with information on the company's culture and objectives to make
+							sure that our candidates' goals are in alignment. We make a concerted effort
+							to keep our candidates well-informed and ready throughout the hiring process.
+						</Typography>
+					</div>
 				</div>
 			</ContentContainer>
 
